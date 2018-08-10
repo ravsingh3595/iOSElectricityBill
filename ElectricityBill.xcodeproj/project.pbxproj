@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE22BD95211BA22200A11333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BD94211BA22200A11333 /* AppDelegate.swift */; };
+		CE22BD97211BA22200A11333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BD96211BA22200A11333 /* ViewController.swift */; };
+		CE22BD9A211BA22200A11333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22BD98211BA22200A11333 /* Main.storyboard */; };
+		CE22BD9D211BA22200A11333 /* ElectricityBill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE22BD9B211BA22200A11333 /* ElectricityBill.xcdatamodeld */; };
+		CE22BD9F211BA22200A11333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE22BD9E211BA22200A11333 /* Assets.xcassets */; };
+		CE22BDA2211BA22200A11333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22BDA0211BA22200A11333 /* LaunchScreen.storyboard */; };
+		CE22BDAA211BA2BF00A11333 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BDA9211BA2BF00A11333 /* SplashViewController.swift */; };
+		CE22BDAD211BA34B00A11333 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BDAC211BA34B00A11333 /* LoginViewController.swift */; };
+		CE22BDAF211BA40C00A11333 /* ElectricityBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BDAE211BA40C00A11333 /* ElectricityBillViewController.swift */; };
+		CE22BDB1211BA42A00A11333 /* BillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BDB0211BA42A00A11333 /* BillDetailsViewController.swift */; };
+		CE22BDB3211BB33200A11333 /* light-bill-online-service-250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = CE22BDB2211BB33200A11333 /* light-bill-online-service-250x250.png */; };
+		CE22BDB6211BCF6500A11333 /* ElectricityBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BDB5211BCF6500A11333 /* ElectricityBill.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE22BD91211BA22200A11333 /* ElectricityBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricityBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE22BD94211BA22200A11333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE22BD96211BA22200A11333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE22BD99211BA22200A11333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE22BD9C211BA22200A11333 /* ElectricityBill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElectricityBill.xcdatamodel; sourceTree = "<group>"; };
+		CE22BD9E211BA22200A11333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE22BDA1211BA22200A11333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE22BDA3211BA22200A11333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE22BDA9211BA2BF00A11333 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CE22BDAC211BA34B00A11333 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE22BDAE211BA40C00A11333 /* ElectricityBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillViewController.swift; sourceTree = "<group>"; };
+		CE22BDB0211BA42A00A11333 /* BillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsViewController.swift; sourceTree = "<group>"; };
+		CE22BDB2211BB33200A11333 /* light-bill-online-service-250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "light-bill-online-service-250x250.png"; path = "../../../../../Desktop/light-bill-online-service-250x250.png"; sourceTree = "<group>"; };
+		CE22BDB5211BCF6500A11333 /* ElectricityBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBill.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE22BD8E211BA22200A11333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE22BD88211BA22200A11333 = {
+			isa = PBXGroup;
+			children = (
+				CE22BDB4211BCF1300A11333 /* Model */,
+				CE22BD93211BA22200A11333 /* ElectricityBill */,
+				CE22BD92211BA22200A11333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE22BD92211BA22200A11333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE22BD91211BA22200A11333 /* ElectricityBill.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE22BD93211BA22200A11333 /* ElectricityBill */ = {
+			isa = PBXGroup;
+			children = (
+				CE22BDB2211BB33200A11333 /* light-bill-online-service-250x250.png */,
+				CE22BDAB211BA30200A11333 /* ViewController */,
+				CE22BD94211BA22200A11333 /* AppDelegate.swift */,
+				CE22BD96211BA22200A11333 /* ViewController.swift */,
+				CE22BD98211BA22200A11333 /* Main.storyboard */,
+				CE22BD9E211BA22200A11333 /* Assets.xcassets */,
+				CE22BDA0211BA22200A11333 /* LaunchScreen.storyboard */,
+				CE22BDA3211BA22200A11333 /* Info.plist */,
+				CE22BD9B211BA22200A11333 /* ElectricityBill.xcdatamodeld */,
+			);
+			path = ElectricityBill;
+			sourceTree = "<group>";
+		};
+		CE22BDAB211BA30200A11333 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE22BDA9211BA2BF00A11333 /* SplashViewController.swift */,
+				CE22BDAC211BA34B00A11333 /* LoginViewController.swift */,
+				CE22BDAE211BA40C00A11333 /* ElectricityBillViewController.swift */,
+				CE22BDB0211BA42A00A11333 /* BillDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE22BDB4211BCF1300A11333 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE22BDB5211BCF6500A11333 /* ElectricityBill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE22BD90211BA22200A11333 /* ElectricityBill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22BDA6211BA22200A11333 /* Build configuration list for PBXNativeTarget "ElectricityBill" */;
+			buildPhases = (
+				CE22BD8D211BA22200A11333 /* Sources */,
+				CE22BD8E211BA22200A11333 /* Frameworks */,
+				CE22BD8F211BA22200A11333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricityBill;
+			productName = ElectricityBill;
+			productReference = CE22BD91211BA22200A11333 /* ElectricityBill.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE22BD89211BA22200A11333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RavSingh;
+				TargetAttributes = {
+					CE22BD90211BA22200A11333 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CE22BD8C211BA22200A11333 /* Build configuration list for PBXProject "ElectricityBill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE22BD88211BA22200A11333;
+			productRefGroup = CE22BD92211BA22200A11333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE22BD90211BA22200A11333 /* ElectricityBill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE22BD8F211BA22200A11333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22BDA2211BA22200A11333 /* LaunchScreen.storyboard in Resources */,
+				CE22BD9F211BA22200A11333 /* Assets.xcassets in Resources */,
+				CE22BD9A211BA22200A11333 /* Main.storyboard in Resources */,
+				CE22BDB3211BB33200A11333 /* light-bill-online-service-250x250.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE22BD8D211BA22200A11333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22BD97211BA22200A11333 /* ViewController.swift in Sources */,
+				CE22BD9D211BA22200A11333 /* ElectricityBill.xcdatamodeld in Sources */,
+				CE22BD95211BA22200A11333 /* AppDelegate.swift in Sources */,
+				CE22BDB1211BA42A00A11333 /* BillDetailsViewController.swift in Sources */,
+				CE22BDB6211BCF6500A11333 /* ElectricityBill.swift in Sources */,
+				CE22BDAD211BA34B00A11333 /* LoginViewController.swift in Sources */,
+				CE22BDAA211BA2BF00A11333 /* SplashViewController.swift in Sources */,
+				CE22BDAF211BA40C00A11333 /* ElectricityBillViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE22BD98211BA22200A11333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22BD99211BA22200A11333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE22BDA0211BA22200A11333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22BDA1211BA22200A11333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE22BDA4211BA22200A11333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE22BDA5211BA22200A11333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE22BDA7211BA22200A11333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKP4QL5587;
+				INFOPLIST_FILE = ElectricityBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.ElectricityBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE22BDA8211BA22200A11333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKP4QL5587;
+				INFOPLIST_FILE = ElectricityBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.ElectricityBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE22BD8C211BA22200A11333 /* Build configuration list for PBXProject "ElectricityBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22BDA4211BA22200A11333 /* Debug */,
+				CE22BDA5211BA22200A11333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22BDA6211BA22200A11333 /* Build configuration list for PBXNativeTarget "ElectricityBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22BDA7211BA22200A11333 /* Debug */,
+				CE22BDA8211BA22200A11333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE22BD9B211BA22200A11333 /* ElectricityBill.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE22BD9C211BA22200A11333 /* ElectricityBill.xcdatamodel */,
+			);
+			currentVersion = CE22BD9C211BA22200A11333 /* ElectricityBill.xcdatamodel */;
+			path = ElectricityBill.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE22BD89211BA22200A11333 /* Project object */;
+}
