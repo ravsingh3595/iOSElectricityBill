@@ -8,9 +8,7 @@
 
 import UIKit
 
-class ElectricityBillViewController: UIViewController {
-
-    
+class ElectricityBillViewController: UIViewController, PassDataProtocol {
 
     @IBOutlet weak var lblCustomerId: UITextField!
     @IBOutlet weak var lblCustomerName: UITextField!
@@ -86,6 +84,10 @@ class ElectricityBillViewController: UIViewController {
             return Gender.Female
         }
         return Gender.Male
+    }
+    
+    func setTotal(totalBill: Double) {
+        print("A")
     }
     
     

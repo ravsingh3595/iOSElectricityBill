@@ -7,6 +7,9 @@
 //
 
 import Foundation
+protocol PassDataProtocol {
+    func setTotal(totalBill: Double)
+}
 
 enum Gender: String {
     case Male = "Male"
@@ -14,6 +17,8 @@ enum Gender: String {
 }
 
 struct ElectricityBill {
+    
+    //var delegate: PassDataProtocol?
     var customerId: String!
     var customerName: String!
     var billDate: String!

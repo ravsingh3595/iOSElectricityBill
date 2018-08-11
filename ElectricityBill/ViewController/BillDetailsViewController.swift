@@ -19,6 +19,11 @@ class BillDetailsViewController: UIViewController {
     
     var detailsVar: ElectricityBill?
     
+    var delegate: PassDataProtocol?
+    // Using delegate we can pass any value from (viewController) calling the function of protocol, and use that value in other view controlller by implementing the protocol and using the function of protocol.
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         txtCustomerId.text = detailsVar?.customerId

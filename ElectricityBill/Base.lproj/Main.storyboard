@@ -70,6 +70,9 @@
                                     <action selector="btnLogin:" destination="tjy-KH-uMu" eventType="touchUpInside" id="qRd-U4-oTf"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePu-ae-f3N">
+                                <rect key="frame" x="164" y="261" width="49" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -79,9 +82,11 @@
                             <constraint firstItem="MfI-HB-w7d" firstAttribute="trailing" secondItem="jhy-aP-FEm" secondAttribute="trailing" constant="40" id="Irq-k9-qj6"/>
                             <constraint firstItem="jhy-aP-FEm" firstAttribute="top" secondItem="MfI-HB-w7d" secondAttribute="top" constant="60" id="Msx-lg-h5Y"/>
                             <constraint firstItem="MfI-HB-w7d" firstAttribute="trailing" secondItem="wCO-lv-b7g" secondAttribute="trailing" constant="40" id="Uhj-I6-tK7"/>
+                            <constraint firstItem="ePu-ae-f3N" firstAttribute="centerX" secondItem="VLR-wW-Mp4" secondAttribute="centerX" id="XfX-Hg-Qit"/>
                             <constraint firstItem="VLR-wW-Mp4" firstAttribute="top" secondItem="wCO-lv-b7g" secondAttribute="bottom" constant="19" id="hzv-8A-AYb"/>
                             <constraint firstItem="VLR-wW-Mp4" firstAttribute="centerX" secondItem="wCO-lv-b7g" secondAttribute="centerX" id="kjD-Oe-0jU"/>
                             <constraint firstItem="wCO-lv-b7g" firstAttribute="leading" secondItem="MfI-HB-w7d" secondAttribute="leading" constant="40" id="mFh-Lk-Ttm"/>
+                            <constraint firstItem="ePu-ae-f3N" firstAttribute="top" secondItem="VLR-wW-Mp4" secondAttribute="bottom" constant="8" id="vEl-h1-k3d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MfI-HB-w7d"/>
                     </view>
@@ -89,6 +94,7 @@
                     <connections>
                         <outlet property="lblPassword" destination="wCO-lv-b7g" id="GEf-oH-nkq"/>
                         <outlet property="lblUserName" destination="jhy-aP-FEm" id="Se9-si-F00"/>
+                        <outlet property="switchRemberMe" destination="ePu-ae-f3N" id="3nf-di-VdB"/>
                         <segue destination="MgP-IT-Eed" kind="show" identifier="LoginVc" id="x4i-oX-2j6"/>
                     </connections>
                 </viewController>
@@ -288,8 +294,10 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="iqC-rc-Jga" firstAttribute="top" secondItem="qEF-Es-Rja" secondAttribute="top" constant="20" id="ULE-um-BP1"/>
+                            <constraint firstItem="iqC-rc-Jga" firstAttribute="leading" secondItem="qEF-Es-Rja" secondAttribute="leading" constant="140" id="arZ-OS-WQG"/>
                             <constraint firstItem="qEF-Es-Rja" firstAttribute="trailing" secondItem="iqC-rc-Jga" secondAttribute="trailing" constant="140" id="oyu-QA-2UP"/>
                             <constraint firstItem="iqC-rc-Jga" firstAttribute="leading" secondItem="qEF-Es-Rja" secondAttribute="leading" constant="140" id="ugz-rt-zg6"/>
+                            <constraint firstItem="qEF-Es-Rja" firstAttribute="trailing" secondItem="iqC-rc-Jga" secondAttribute="trailing" constant="140" id="yxI-Kd-xxL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qEF-Es-Rja"/>
                     </view>
