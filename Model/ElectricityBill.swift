@@ -17,8 +17,7 @@ enum Gender: String {
 }
 
 struct ElectricityBill {
-    
-    //var delegate: PassDataProtocol?
+    var customerEmailId: String!
     var customerId: String!
     var customerName: String!
     var billDate: String!

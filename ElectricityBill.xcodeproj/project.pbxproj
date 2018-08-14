@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE08428021223B7D005161A7 /* 1523774614644.png in Resources */ = {isa = PBXBuildFile; fileRef = CE08427F21223B7C005161A7 /* 1523774614644.png */; };
 		CE22BD95211BA22200A11333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BD94211BA22200A11333 /* AppDelegate.swift */; };
 		CE22BD97211BA22200A11333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22BD96211BA22200A11333 /* ViewController.swift */; };
 		CE22BD9A211BA22200A11333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE22BD98211BA22200A11333 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE08427F21223B7C005161A7 /* 1523774614644.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1523774614644.png; path = "../../../../../Part-time Job/1523774614644.png"; sourceTree = "<group>"; };
+		CE08428121223B7F005161A7 /* 1523774614644.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1523774614644.png; sourceTree = "<group>"; };
 		CE22BD91211BA22200A11333 /* ElectricityBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricityBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE22BD94211BA22200A11333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE22BD96211BA22200A11333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				CE22BDB2211BB33200A11333 /* light-bill-online-service-250x250.png */,
+				CE08428121223B7F005161A7 /* 1523774614644.png */,
 				CE22BDAB211BA30200A11333 /* ViewController */,
 				CE22BD94211BA22200A11333 /* AppDelegate.swift */,
 				CE22BD96211BA22200A11333 /* ViewController.swift */,
@@ -85,6 +89,7 @@
 		CE22BDAB211BA30200A11333 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CE08427F21223B7C005161A7 /* 1523774614644.png */,
 				CE22BDA9211BA2BF00A11333 /* SplashViewController.swift */,
 				CE22BDAC211BA34B00A11333 /* LoginViewController.swift */,
 				CE22BDAE211BA40C00A11333 /* ElectricityBillViewController.swift */,
@@ -163,6 +168,7 @@
 				CE22BD9F211BA22200A11333 /* Assets.xcassets in Resources */,
 				CE22BD9A211BA22200A11333 /* Main.storyboard in Resources */,
 				CE22BDB3211BB33200A11333 /* light-bill-online-service-250x250.png in Resources */,
+				CE08428021223B7D005161A7 /* 1523774614644.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
